@@ -65,7 +65,8 @@ function App() {
     const response = await fetch(`${data.prev_page}`, {
       method: "GET",
       headers: {
-        Authorization: process.env.REACT_APP_API_KEY,
+        Authorization:
+          "563492ad6f9170000100000159410b690b264ce39c0121829bf7b63a",
       },
     });
     const newData = await response.json();
