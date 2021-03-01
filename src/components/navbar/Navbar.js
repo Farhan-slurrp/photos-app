@@ -64,6 +64,7 @@ const Search = styled.div`
   }
   @media (max-width: 969px) {
     right: 6em;
+    width: 100%;
   }
 `;
 

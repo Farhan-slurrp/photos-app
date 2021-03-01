@@ -52,6 +52,7 @@ const PhotoContainer = styled.div`
   @media (max-width: 649px) {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 `;
 
@@ -73,6 +74,7 @@ const Button = styled.div`
   gap: 1.7%;
   @media (max-width: 649px) {
     gap: 3%;
+    padding-bottom: 4%;
   }
 `;
 
