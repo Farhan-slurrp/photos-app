@@ -37,7 +37,7 @@ export default Photos;
 const Container = styled.div`
   padding: 3em 0 0 0;
   display: grid;
-  grid-template-rows: 1fr auto;
+  grid-template-rows: 1fr min-content;
   align-items: center;
   justify-content: center;
 `;
@@ -49,24 +49,31 @@ const PhotoContainer = styled.div`
   grid-template-columns: repeat(3, 1fr);
   gap: 1.2em;
   padding: 1em 1em;
+  @media (max-width: 649px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 const Photo = styled.div`
   img {
     border: 4px solid white;
     box-shadow: 0 0 4px rgb(0 0 0);
-    width: 30vw;
-    height: 30vh;
+    width: 100%;
+    height: 100%;
   }
 `;
 
 const Button = styled.div`
-  padding: 2em;
+  padding: 2%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1em;
+  gap: 1.7%;
+  @media (max-width: 649px) {
+    gap: 3%;
+  }
 `;
 
 const Prev = styled.div`
