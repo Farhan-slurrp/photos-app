@@ -97,6 +97,10 @@ const Prev = styled.div`
     padding-right: 0.5em;
     margin-top: 0.8em;
   }
+  @media (max-width: 649px) {
+    height: 2.3em;
+    width: 2.8em;
+  }
 `;
 
 const Next = styled.div`
@@ -117,5 +121,9 @@ const Next = styled.div`
   p {
     padding-left: 0.5em;
     margin-top: 0.8em;
+  }
+  @media (max-width: 649px) {
+    height: 2.3em;
+    width: 2.8em;
   }
 `;
