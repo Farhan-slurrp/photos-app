@@ -52,6 +52,7 @@ const PhotoContainer = styled.div`
   @media (max-width: 649px) {
     display: flex;
     flex-direction: column;
+    gap: 1.2em;
     align-items: center;
   }
 `;
